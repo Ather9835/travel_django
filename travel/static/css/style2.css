@@ -1,0 +1,147 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+background-color: #10394d;
+position: sticky;
+top: 0px;
+z-index: 2;
+
+}
+.black{
+
+color: black;
+transform: rotateY(180deg);
+}
+.navbar{
+
+display: flex;
+
+
+}
+.item:hover .btn{
+   transform: rotateY(180deg);
+}
+
+.logo{
+  flex:1;
+  text-align: right;
+}
+
+.title{
+     width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c2c2be;
+    font-size: 37px;
+    font-family: 'Arvo', serif;
+}
+
+.logo img{
+  width: 70px;
+  height:70px;
+  border: 0px solid red;
+  border-radius: 50%;
+}
+
+.service-class{
+
+   display: flex;
+    flex-wrap: wrap;
+    margin: 55px 183px;
+    background: none;
+    justify-content: flex-start;
+    padding: 0px 70px;
+
+
+}
+
+.item{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 436px;
+    margin: 25px 18px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 8px 6px 14px white;
+    transition: all 0.5s;
+
+}
+@keyframes spin{
+ from{
+   transform: rotateY(0deg);
+   }
+  to{
+  transform: rotateY(360deg);
+  }
+}
+
+.center{
+
+text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin-top: 70px;
+    font-size: 74px;
+
+}
+
+.item p{
+      flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 42px;
+}
+.item img{
+ width: 210px;
+    height: 198px;
+    display: block;
+    margin: auto;
+    margin-top: 19px;
+    border-radius: 22px;
+}
+.mid{
+ display:flex;
+ flex-direction: column;
+ align-items:center;
+ justify-content:center;
+ background-color: red;
+ background-color: #a6efff;
+ }
+
+ .item:hover{
+  transform: rotateY(180deg);
+  background: white;
+  box-shadow: none;
+ }
+
+.btn{
+
+    text-align: center;
+    height: 36px;
+    width: 112px;
+    background-color: #36569f;
+    border-radius: 64px;
+    border: none;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    margin-bottom: 23px;
+    font-weight: bold;
+
+ }
+
+ .item a{
+     text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding-top: 8px;
+    font-weight: bolder;
+    }
